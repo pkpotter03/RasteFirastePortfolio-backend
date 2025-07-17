@@ -3,8 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-const blogRoutes = require('./routes/blogs');
-const ytVideoRoutes = require('./routes/ytVideos');
+const blogRoutes = require('./src/routes/blogs');
+const ytVideoRoutes = require('./src/routes/ytVideos');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
